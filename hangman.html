@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hangman</title>
+	  <meta charset="utf-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script type='text/javascript' src='hangman.js'></script>
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+	<link rel='stylesheet' type='text/css' href='hangman.css'>
+</head>
+<body>
+	<header>
+		<h1>Hangman<h1>
+		<h3>Guess the word<h3>
+	</header>
+	<main>
+	  <div id="lines">
+		</div>
+		<div id="inputArea">
+			<input type="text" id="guess">
+			<input type="submit" id="enter" value="Click here to check letter">
+		</div>
+		<div id="bottom">
+			<div id="hangmanLives">
+				<p>Life</p>
+				<div id="display">
+					<p id="hangmanDisplay"></p>
+				</div>
+			</div>
+		</div>
+  </main>
+
+	<footer>
+	</footer>
+</body>
+</html>
